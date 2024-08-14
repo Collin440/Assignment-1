@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
                         "Teddy Pendergrass" -> "You are old"
                         "Anthony Bourdain" -> "You are elderly"
                         "Colonel Sanders" -> "You are a fossil"
-                        else -> "Please enter valid age"
+                        else -> "Please enter age between 20 to 90 to validate."
                     }
                 }"
             } else {
