@@ -20,11 +20,16 @@ class MainActivity : AppCompatActivity() {
             val age = ageNumber.text.toString().toIntOrNull()
             if (age != null) {
                 val results = when (age) {
-                    in 20..30 -> "Juice WRLD"
-                    in 30..49 -> "AKA"
+                    in 0..10 -> "Zen Cannon"
+                    in 10..19 -> "Dorian Kweller"
+                    in 20..29 -> "Juice WRLD"
+                    in 30..39 -> "AKA"
+                    in 40..49 -> "Laurance Harvey"
                     in 50..59 -> "Teddy Pendergrass"
-                    in 60..79 -> "Anthony Bourdain"
-                    in 80..90 -> "Colonel Sanders"
+                    in 60..69 -> "Anthony Bourdain"
+                    in 70..79 -> "Richard Dawson"
+                    in 80..89 -> "Colonel Sanders"
+                    in 90..100 -> "Peter Drucker"
                     else -> "Senior"
                 }
                 txtResults.text = "Age: $age\n${
